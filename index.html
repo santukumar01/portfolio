@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo" id="logo">Portfolio</a>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="ham-bar"></span>
+            <span class="ham-bar"></span>
+            <span class="ham-bar"></span>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#home" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skill</a>
+            <a href="#Profile" style="--i:4">Profiles</a>
+            <a href="#project" style="--i:5">Project</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 style="margin-top: 30px;">Hello , it's Me</h3>
+            <h1>Santu Kumar</h1>
+            <h3>And i am <span class="text"></span> </h3>
+            <p>I am passionate about technology</p>
+            <div class="home-icon">
+                <a href="https://www.linkedin.com/in/santu-kumar-54102b1b4/" style="--i:6"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://twitter.com/SANTUKU05477702" style="--i:7"><i class='bx bxl-twitter'></i></a>
+                <a href="mailto:santuku67@gmail.com" style="--i:8">
+                    <i class="bx bxs-envelope" style="color: #0cfbdc"></i>
+                </a>
+                <a href="https://github.com/santukumar01" target="_blank" style="--i:9"><i
+                        class='bx bxl-github'></i></a>
+
+            </div>
+            <a href="#about" class="btn-box" style="--i:7">More About Me</a>
+        </div>
+        <div class="img-container">
+            <img class="floating" src="images/img4_cleanup.jpeg" alt="">
+        </div>
+
+    </section>
+
+    <section class=" about" id="about"
+        style=" margin: 10px;  border: 2px solid rgb(11, 11, 11); border-radius: 20px; box-shadow: 0 0 10px cyan;">
+
+        <div id="outer-div">
+            <p id="abt-demo">Hello</p>
+        </div>
+
+
+        <div class=" about-text">
+            <h2 style="margin-bottom: 15px;">About <span>Me</span></h2>
+            <div>
+                <h3>
+                    <button id="intro" class="about-btn" onclick="slideTo(0)">Introduction</button>
+                    <button id="edu" class="about-btn" onclick="slideTo(1)">Eduction</button>
+                    <button id="resume" class="about-btn" onclick="slideTo(2)">Resume</button>
+                </h3>
+
+                <div id="add">
+                    <div class="about-container">
+                        <div class="content-container">
+                            <div class="content">
+                                <h4>Aspiring Software Developer</h4>
+                                <p style="line-height: 2;">
+                                    I am a skilled software developer, specializing in web design and MERN
+                                    full-stack
+                                    development
+                                    I With a strong proficiency in front-end design and back-end development, I
+                                    create
+                                    visually appealing user-friendly web applications. I am dedicated to staying
+                                    updated
+                                    with industry trends,
+                                    ensuring high-quality digital solutions.
+                                </p>
+                            </div>
+                            <div class="content">
+                                <h4>Graduation in Computer Science and Engineering , 2022</h4>
+                                <p>
+                                    Darbhanga College of Engineering(71%)
+                                </p>
+                                <h4>Senior Secondary Schools</h4>
+                                <p>
+                                    College of Commerce , Arts and Science (71%)
+                                </p>
+                                <h4>Metriculation</h4>
+                                <p>
+                                    P.A H/S , Patna (80%)
+                                </p>
+                            </div>
+                            <div class="content">
+                                <h4><a href="https://drive.google.com/file/d/1lm7SX1xZRJ1fk4WHYph6PsKC52-3IZot/view?usp=drive_link"
+                                        target="_blank">Click
+                                        Me to See Resume</a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-cart' style='color:#162aff'></i>
+                        <h2>E-commerce - Website</h2>
+                        <p> I will Create and deploy E-Website for your store using MERN stack </p>
+                        <a href="#project" class="read">More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxs-crop' style='color:#162aff'></i>
+                        <h2>UI/UX Design</h2>
+                        <p> I will create complete Responsive and user-friendly web-application </p>
+                        <a href="#project" class="read">More</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-code-alt' style='color:#162aff'></i>
+                        <h2>Web-appliction</h2>
+                        <p> I will develop a comprehensive web application tailored to your specific needs, focusing on
+                            user-friendliness and an intuitive user experience. </p>
+                        <a href="#project" class="read">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section class="section-skills">
+        <div class="skills-container" id="skills">
+
+            <h1 class="skills-heading">Teachnical Skills</h1>
+            <div class="Teachnical-bars">
+                <div class="bar"><i class='bx bxl-c-plus-plus' style='color: rgb(52, 17, 227)'></i>
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-line cpp">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-c-plus-plus' style='color: rgb(52, 17, 227)'></i>
+                    <div class="info">
+                        <span>Data structre and algorithm</span>
+                    </div>
+                    <div class="progress-line cpp">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i class='bx bxl-java'></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!--  HTML bar -->
+                <div class="bar"><i class='bx bxl-html5' style='color:orange'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- CSS bar -->
+
+                <div class="bar"><i class='bx bxl-css3' style='color:#9ff512'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- JavaScript bar -->
+                <div class="bar"><i class='bx bxl-javascript' style='color:#9ff512'></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- react bar -->
+                <div class="bar"><i class='bx bxl-react' style='color:blue'></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar"><i class='bx bxl-nodejs' style='color: gray'></i>
+                    <div class="info">
+                        <span>Node</span>
+                    </div>
+                    <div class="progress-line node">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-mongodb' style='color:green'></i>
+                    <div class="info">
+                        <span>MongoDb</span>
+                    </div>
+                    <div class="progress-line mongo">
+                        <span></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="skills-container">
+            <h1 class="skills-heading">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <!-- creativity circle -->
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar track" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80" fill="none"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar track" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80" fill='none'></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar track" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80" fill="none"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Communication</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Profile">
+        <h2 style="margin: 20px;">Coding <span>Profile</span></h2>
+        <div>
+            <a class="floating glow-on-hover" style="--i:1"
+                href="https://auth.geeksforgeeks.org/user/santuku67/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+                target="_blank">GeeksforGeeks</a>
+            <a class="floating glow-on-hover" style="--i:2" href="https://www.codechef.com/users/santuku67"
+                target="_blank">CodeChef</a>
+            <a class="floating glow-on-hover" style="--i:3" href="https://www.hackerrank.com/profile/santuku67"
+                target="_blank">HackerRank</a>
+            <a class="floating glow-on-hover" style="--i:4" href="https://www.hackerearth.com/@santuku67"
+                target="_blank">HackerEarth</a>
+        </div>
+
+    </section>
+
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+
+                <div class="protfolio-content">
+                    <div class="row">
+                        <img src="images/img4.png" alt="">
+                        <div class="layer">
+                            <h5>E-Com Website</h5>
+                            <p>Created a E- com Website Using With React and firebase</p>
+
+                            <a href="https://reactshopapp-3ce64.firebaseapp.com/" target="_blank"><i
+                                    class='bx bx-link-external'></a></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/BlogApp.png" alt="">
+                        <div class="layer">
+                            <h5>Blog App Website</h5>
+                            <p>Creating a Blog App using RactJS and AppWrite</p>
+
+                            <a href="https://github.com/santukumar01/blogapp" target="_blank"><i
+                                    class='bx bx-link-external'></a></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="images/img5.png" alt="">
+                        <div class="layer">
+                            <h5>Snake Game</h5>
+                            <p>Created a Simple Snake Game Using CSS , HTML and JavaScript</p>
+                            <a href="https://shiny-gecko-2a8c01.netlify.app/" target="_blank"><i
+                                    class='bx bx-link-external' style='color:#d2e314'></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="images/img6.png" alt="">
+                        <div class="layer">
+                            <h5>Chat - APP</h5>
+                            <p>Created a Chat appliaction using NodeJs and socket io </p>
+                            <a href="https://github.com/santukumar01/snake-game" target="_blank"><i
+                                    class='bx bx-link-external' style='color:#d2e314'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/todo.png" alt="">
+                        <div class="layer">
+                            <h5>Todo - APP</h5>
+                            <p>Created a ToDo appliaction using ReactJs</p>
+                            <a href="https://incandescent-longma-c81bba.netlify.app" target="_blank"><i
+                                    class='bx bx-link-external' style='color:#d2e314'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/gNO.png" alt="">
+                        <div class="layer">
+                            <h5>Guess The Number - APP</h5>
+                            <p>Created a Chat appliaction using simple javascript </p>
+                            <a href="https://voluble-snickerdoodle-9570a8.netlify.app" target="_blank"><i
+                                    class='bx bx-link-external' style='color:#d2e314'></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="images/bgChanger.png" alt="">
+                        <div class="layer">
+                            <h5>Background colour changer - APP</h5>
+                            <p>Created BackGround Changer Using ReactJs </p>
+                            <a href="https://astonishing-llama-99b89f.netlify.app" target="_blank"><i
+                                    class='bx bx-link-external' style='color:#d2e314'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <div class="upper-heading">
+                <h2 style="margin: 50px;">Contact <span>Me</span></h2>
+                <h4>Lets Work Toghter</h4>
+                <p>If you want to work with me or hire me you are most welcomed , Lets Build SomeThing that can meke an
+                    impact</p>
+            </div>
+            <div class="lower-heading">
+                <div class="contact-list">
+                    <li style="display: flex; justify-content: center;"><i class='bx bx-send'
+                            style='color:#1914e1; '></i>santuku67@gmail.com</li>
+                </div>
+                <div class="contact-icons" style="padding: 10px;">
+                    <a href="mailto:santuku67@gmail.com" target="_blank"><i class='bx bxs-envelope'
+                            style='color:#0c4dfb'></i></a>
+                    <a href="https://www.linkedin.com/in/santu-kumar-54102b1b4/" target="_blank"><i
+                            class='bx bxl-linkedin-square' style='color:#0c4dfb'></i></a>
+                    <a id="btn-hire-me" href="mailto:santuku67@gmail.com">Hire Me</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="map-section">
+            <div class="map">
+                <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div
+                    style="text-decoration:none; overflow:hidden;max-width:100%;width:100%;height:100%; border-radius: 20px;">
+                    <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe
+                            style="height:100%;width:100%;border:0;" frameborder="0"
+                            src="https://www.google.com/maps/embed/v1/place?q=RadheyShyam+Apartment,+Chanakya+Nagar+Rd,+Chanakya+Nagar,+Kankarbagh,+Kumhrar,+Patna,+Bihar+800026,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes"
+                        id="auth-map-data">premium bootstrap themes</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                    </div>
+
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+
+                    <div>
+                        <input type="text" id="subject" name="subject" placeholder="Please Enter your Subject">
+                    </div>
+
+                    <div>
+                        <textarea id="message" placeholder="Wirte your msg" name="message" cols="30"
+                            rows="5"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" onclick="sendMail()" value="Submit" class="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="top">
+        <a href="#home"><i class='bx bxs-arrow-to-top' style='color:#0c4dfb'></i></a>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("Jhj-j0SKrUp1FEd3y");
+    })();
+</script>
+<script src="script.js"></script>
+
+</html>
